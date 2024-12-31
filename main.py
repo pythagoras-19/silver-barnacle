@@ -63,7 +63,12 @@ class MyTensor:
 def main():
     t = MyTensor()
     t.create_tensor()
+    t_2 = MyTensor()
+    t_2.create_tensor()
     t.create_data_loaders()
+    t_2.create_data_loaders()
+    x = complex(5, 4)
+    print(f"x is : {x}")
 
 if __name__ == "__main__":
     main()
